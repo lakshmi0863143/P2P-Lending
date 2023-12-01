@@ -420,7 +420,7 @@ db_schema:
     server: full
     columns:
     - name: email_id
-      admin_ui: {width: 200, order: 1}
+      admin_ui: {order: -0.625, width: 200}
       type: string
     - name: full_name
       admin_ui: {order: -0.25, width: 200}
@@ -482,6 +482,15 @@ db_schema:
     - name: lender_email_id
       admin_ui: {width: 200}
       type: string
+    - name: days_left
+      admin_ui: {width: 200, order: 21}
+      type: number
+    - name: closed_type
+      admin_ui: {width: 200, order: 22}
+      type: string
+    - name: closed_date
+      admin_ui: {width: 200, order: 23}
+      type: date
     title: loan_details
   product_group:
     title: product_group
