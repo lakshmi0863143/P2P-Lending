@@ -14,13 +14,18 @@ components:
   data_bindings:
   - {property: text, code: 'self.item[''full_name'']'}
 - type: Label
-  properties: {}
+  properties: {role: null, align: left, tooltip: '', border: '', foreground: '', visible: true,
+    text: '', font_size: 12, font: '', spacing_above: small, icon_align: left, spacing_below: small,
+    italic: false, background: '', bold: false, underline: false, icon: ''}
   name: label_2
   layout_properties: {column: AMTTBE}
   data_bindings:
   - {property: text, code: 'self.item[''email_user'']'}
 - type: Label
-  properties: {}
+  properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
+    visible: true, text: '', font_size: null, font: '', spacing_above: small, icon_align: left,
+    spacing_below: small, italic: false, background: '', bold: false, underline: false,
+    icon: ''}
   name: label_3
   layout_properties: {column: ZFAQSV}
   data_bindings:
