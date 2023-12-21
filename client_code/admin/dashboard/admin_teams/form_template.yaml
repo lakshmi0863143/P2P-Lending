@@ -171,3 +171,4 @@ components:
       name: link_2
       layout_properties: {x: 336, y: 10, width: 173.2}
       event_bindings: {click: link_2_click}
+custom_component: true
