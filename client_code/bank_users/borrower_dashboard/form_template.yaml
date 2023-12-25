@@ -129,7 +129,7 @@ components:
     properties: {role: outlined-button, align: center, tooltip: '', border: '', enabled: true,
       foreground: black, visible: true, text: 'Loan Foreclose                           ',
       font_size: null, font: '', spacing_above: small, icon_align: left, spacing_below: small,
-      italic: false, background: '#0876e8', bold: false, underline: false, icon: ''}
+      italic: false, background: '#0876e8', bold: false, underline: false, icon: 'fa:fast-backward'}
     type: Button
     layout_properties: {row: EMUNJQ, width_xs: 3, col_xs: 8, width: 175.5}
     event_bindings: {click: outlined_button_2_click}
